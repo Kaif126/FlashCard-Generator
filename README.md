@@ -67,24 +67,41 @@ PDF.js – for reading and parsing PDFs.
 🔲 AI-powered summarization (coming soon)
 
 💡 Example Use Cases
+
+
 Students revising textbook PDFs
+
+
 
 Professionals summarizing research papers
 
+
+
 Teachers creating quiz cards
+
+
 
 Anyone looking for quick learning tools
 
+
 🤝 Contributing
+
+
 Pull requests are welcome. Feel free to open issues for feature suggestions or bugs.
 
 📄 License
+
+
 MIT License – free to use, modify, and distribute.
 
 🙌 Acknowledgements
+
+
 Inspired by productivity tools like Notion & Anki.
 
+
 Uses Fira Code for that clean dev-editor feel.
+
 
 PDF handling powered by Mozilla's PDF.js.
 
