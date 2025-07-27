@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcard Generator</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="mainContainer">
+    <div class="editor-mode" id="editorSection">
+      <h1>🧠 Flashcard Generator</h1>
+      <p>Choose one option to generate flashcards:</p>
+
+      <label class="option-label">📁 Upload PDF</label>
+      <input type="file" id="pdfInput" accept="application/pdf" onchange="clearTextInput()">
+
+      <label class="option-label">✍️ Or Paste Text</label>
+      <textarea id="textInput" placeholder="Paste your text here..." oninput="clearFileInput()"></textarea>
+
+      <button onclick="generateFlashcards()">Generate Flashcards</button>
+    </div>
+
+    <div class="flashcard-section" id="flashcardSection">
+      <h2>📚 Your Flashcards</h2>
+      <div id="flashcards" class="flashcard-container"></div>
+      <button onclick="backToEditor()">← Back</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+  <script src="script/app.js"></script>
+</body>
+</html>
