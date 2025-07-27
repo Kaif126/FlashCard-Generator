@@ -27,7 +27,9 @@ A stylish and interactive **Flashcard Generator** web app built with **HTML**, *
 
 | Initial Editor Mode | Flashcards View |
 |---------------------|-----------------|
-| ![Editor](screenshots/editor.png) | ![Flashcards](screenshots/flashcards.png) |
+| <img width="1694" height="885" alt="Screenshot (568)" src="https://github.com/user-attachments/assets/ebda978c-f0cd-4a57-a2f3-1aec587b9b69" />
+ <img width="1890" height="894" alt="Screenshot (569)" src="https://github.com/user-attachments/assets/2a33114c-28e5-4e69-ac7d-1d798e012625" />
+
 
 ---
 
@@ -41,7 +43,7 @@ flashcard-generator/
 │ └── app.js
 └── README.md
 
-Open with Live Server in VS Code or double-click index.html.
+Open with Live Server [in VS Code or double-click index.html.](http://127.0.0.1:5500/index.html)
 
 Use Interface:
 
